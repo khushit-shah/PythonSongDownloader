@@ -3,7 +3,7 @@ import requests as req
 
 
 songUrl = []
-baseLink = "https://omarmik.blogspot.com/p/blog-page_26.html?m=1"
+baseLink = "link-to-the-page"
 
 basePage = req.get(baseLink).text
 # print(basePage)
